@@ -11,7 +11,7 @@ function calculateHypotenuse(){
     if(a && b){
         if(a>0 && b>0){
             const hypotenuse=Math.sqrt(a*a +b*b);
-        message.innerText=`The of hypotenuse is ${hypotenuse}.`;
+        message.innerText=`The of hypotenuse is ${hypotenuse.toFixed(2)}.`;
      } else{
         message.innerText="values should be positive.";
        }
